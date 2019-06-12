@@ -107,7 +107,7 @@ li {
 	overflow-x: hidden;	
 	z-index: -1;	
 	transform: translateY(-100%);
-	transition: transform .3s ease-out;
+	transition: transform .4s ease-out;
 }
 
 .dropdown-menu > li {
@@ -186,7 +186,7 @@ li {
 		z-index: unset;
 		transform: none;
 		position: relative;
-		/* display: block; */
-		display: none;
+		/* display: block;
+		display: none; */
 	}
 }
