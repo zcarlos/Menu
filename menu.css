@@ -193,8 +193,10 @@ li {
 	
 	.dropdown-menu {
 		z-index: unset;
+		transform: unset; 
 		border: 0;		
 		position: relative;
-		display: none;	
+		max-height: 0;
+		transition: max-height .6s ease-out;	
 	}
 }
