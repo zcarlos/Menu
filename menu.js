@@ -26,8 +26,6 @@ $$('.toggle-dropdown').forEach((item, i) => {
     item.addEventListener('click', (e) => {
         e.preventDefault();
 
-        /*console.log(getComputedStyle(dropdown_menu_ul_style[i]).maxHeight);*/
-
         if ($('body').clientWidth <= 625) {
         	if (getComputedStyle(dropdown_menu_ul_style[i]).maxHeight === 0 + "px") {
         		clear_dropdown_menu_styles();
@@ -57,7 +55,7 @@ function clear_dropdown_menu_styles() {
 }
 
 /**
- * Close the dropdown when clicked outside if the translated box menu is down 
+ * Close the dropdown box submenu when it´s down, clicking outside of it  
  */
 window.onclick = function(e) {	
 	if (!e.target.matches('.toggle-dropdown')) {

@@ -183,6 +183,7 @@ li {
 	.menu > li > a {
 		border-right: none;
 		border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+		padding: 0.72rem 0.625rem;
 	}
 
 	.menu > li > a:nth-child(1),
@@ -197,6 +198,6 @@ li {
 		border: 0;		
 		position: relative;
 		max-height: 0;
-		transition: max-height .6s ease-out;	
+		transition: max-height .6s linear;	
 	}
 }
